@@ -1,0 +1,8 @@
+syntax = "proto3";
+option java_multiple_files = true;
+package main;
+
+message Chat {
+    int32 id = 1;
+    string message = 2;
+}
